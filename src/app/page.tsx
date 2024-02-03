@@ -33,10 +33,9 @@ async function ListItem() {
 
 export default async function Home() {
   return (
-    <ListItemSkeletonHome />
-    // <Suspense fallback={<ListItemSkeletonHome />}>
-    //   {/* @ts-expect-error Server Component */}
-    //   <ListItem />
-    // </Suspense>
+    <Suspense fallback={<ListItemSkeletonHome />}>
+      {/* @ts-expect-error Server Component */}
+      <ListItem />
+    </Suspense>
   );
 }
