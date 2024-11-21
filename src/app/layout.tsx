@@ -18,15 +18,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} grid min-h-screen grid-rows-[70px,1fr]`}>
-        <header className="flex w-full items-center px-10">
-          <Link href="/">
+      <body
+        className={`${inter.className} m-auto grid min-h-screen max-w-screen-xl grid-rows-[auto,1fr,auto]`}
+      >
+        <header className="flex pt-5">
+          <Link className="" href="/">
             <h1 className="border-b-4 border-b-slate-500 p-2 text-2xl transition-colors hover:bg-slate-500">
               Card Gallery
             </h1>
           </Link>
         </header>
-        <main className="m-auto mt-5 w-full max-w-screen-xl px-10">{children}</main>
+        <main className="mt-5 px-10 pb-5">{children}</main>
+        <footer className="text-center leading-[4rem] opacity-70">© 2024, by Kevoff</footer>
       </body>
     </html>
   );
