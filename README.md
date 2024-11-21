@@ -1,4 +1,4 @@
-###Card Gallery
+### Card Gallery
 
 **Card Gallery** es un proyecto interactivo que presenta una colección de estudios de caso destacados en forma de tarjetas visuales. Cada tarjeta resume un proyecto, incluyendo información clave sobre problemas abordados, soluciones implementadas y resultados obtenidos. Al hacer clic en una tarjeta, se despliega una vista detallada con imágenes, gráficos y explicaciones adicionales.
 
