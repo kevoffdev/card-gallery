@@ -16,18 +16,29 @@ async function ListItem() {
   ).then((resp) => resp.json() as Promise<Card>);
 
   return (
-    <section className="grid grid-cols-2 gap-4 py-4">
-      {case_studies.map((item) => {
-        return (
-          <Link key={item.id} className="flex rounded-md bg-gray-800 p-3" href={`/${item.id}`}>
-            <article className="grid grid-rows-[1fr,30px] place-items-center gap-2">
-              <img alt={item.title} className="h-full w-full object-cover" src={item.hero_image} />
-              <p className="">{item.teaser}</p>
+    <>
+      <h2 className="leading-[2rem]">Real Solutions, Real Impact</h2>
+
+      <section className="grid grid-cols-2 gap-4 py-4">
+        {case_studies.map((item) => {
+          return (
+            <article
+              key={item.id}
+              className="grid grid-rows-[1fr,auto] gap-2  rounded-md bg-gray-800 p-3"
+            >
+              <Link href={`${item.id}`}>
+                <img
+                  alt={item.title}
+                  className="h-full w-full object-cover"
+                  src={item.hero_image}
+                />
+              </Link>
+              <p className="py-2 text-center">{item.teaser}</p>
             </article>
-          </Link>
-        );
-      })}
-    </section>
+          );
+        })}
+      </section>
+    </>
   );
 }
 
