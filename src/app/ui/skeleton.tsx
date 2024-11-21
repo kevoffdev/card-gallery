@@ -1,11 +1,11 @@
 export function ListItemSkeletonHome() {
   return (
-    <div className="grid grid-cols-2 gap-y-6">
+    <div className="grid grid-cols-2 gap-6">
       <div
-        className="flex max-w-lg animate-pulse flex-col items-center gap-6 border p-4 dark:border-gray-700"
+        className="flex animate-pulse flex-col items-center gap-6 rounded-lg border p-4 dark:border-gray-700"
         role="status"
       >
-        <div className="flex h-48 w-full items-center justify-center rounded bg-gray-300 dark:bg-gray-700">
+        <div className="flex h-56 w-full items-center justify-center rounded bg-gray-300 dark:bg-gray-700">
           <svg
             aria-hidden="true"
             className="h-10 w-10 text-gray-200 dark:text-gray-600"
@@ -17,17 +17,15 @@ export function ListItemSkeletonHome() {
           </svg>
         </div>
         <div className="w-full">
-          <div className="mb-2.5 h-2 max-w-[480px] rounded-full bg-gray-200 dark:bg-gray-700" />
-          <div className="mb-2.5 h-2 rounded-full bg-gray-200 dark:bg-gray-700" />
           <div className="mb-2.5 h-2 rounded-full bg-gray-200 dark:bg-gray-700" />
         </div>
         <span className="sr-only">Loading...</span>
       </div>
       <div
-        className="flex max-w-lg animate-pulse flex-col items-center gap-6 border p-4 dark:border-gray-700"
+        className="flex max-w-2xl animate-pulse flex-col items-center gap-6 rounded-lg border p-4 dark:border-gray-700"
         role="status"
       >
-        <div className="flex h-48 w-full items-center justify-center rounded bg-gray-300 dark:bg-gray-700">
+        <div className="flex h-56 w-full items-center justify-center rounded bg-gray-300 dark:bg-gray-700">
           <svg
             aria-hidden="true"
             className="h-10 w-10 text-gray-200 dark:text-gray-600"
@@ -39,17 +37,15 @@ export function ListItemSkeletonHome() {
           </svg>
         </div>
         <div className="w-full">
-          <div className="mb-2.5 h-2 max-w-[480px] rounded-full bg-gray-200 dark:bg-gray-700" />
-          <div className="mb-2.5 h-2 rounded-full bg-gray-200 dark:bg-gray-700" />
           <div className="mb-2.5 h-2 rounded-full bg-gray-200 dark:bg-gray-700" />
         </div>
         <span className="sr-only">Loading...</span>
       </div>
       <div
-        className="flex max-w-lg animate-pulse flex-col items-center gap-6 border p-4 dark:border-gray-700"
+        className="flex max-w-2xl animate-pulse flex-col items-center gap-6 rounded-lg border p-4 dark:border-gray-700"
         role="status"
       >
-        <div className="flex h-48 w-full items-center justify-center rounded bg-gray-300 dark:bg-gray-700">
+        <div className="flex h-56 w-full items-center justify-center rounded bg-gray-300 dark:bg-gray-700">
           <svg
             aria-hidden="true"
             className="h-10 w-10 text-gray-200 dark:text-gray-600"
@@ -61,17 +57,15 @@ export function ListItemSkeletonHome() {
           </svg>
         </div>
         <div className="w-full">
-          <div className="mb-2.5 h-2 max-w-[480px] rounded-full bg-gray-200 dark:bg-gray-700" />
-          <div className="mb-2.5 h-2 rounded-full bg-gray-200 dark:bg-gray-700" />
           <div className="mb-2.5 h-2 rounded-full bg-gray-200 dark:bg-gray-700" />
         </div>
         <span className="sr-only">Loading...</span>
       </div>
       <div
-        className="flex max-w-lg animate-pulse flex-col items-center gap-6 border p-4 dark:border-gray-700"
+        className="flex max-w-2xl animate-pulse flex-col items-center gap-6 rounded-lg border p-4 dark:border-gray-700"
         role="status"
       >
-        <div className="flex h-48 w-full items-center justify-center rounded bg-gray-300 dark:bg-gray-700">
+        <div className="flex h-56 w-full items-center justify-center rounded bg-gray-300 dark:bg-gray-700">
           <svg
             aria-hidden="true"
             className="h-10 w-10 text-gray-200 dark:text-gray-600"
@@ -83,17 +77,15 @@ export function ListItemSkeletonHome() {
           </svg>
         </div>
         <div className="w-full">
-          <div className="mb-2.5 h-2 max-w-[480px] rounded-full bg-gray-200 dark:bg-gray-700" />
-          <div className="mb-2.5 h-2 rounded-full bg-gray-200 dark:bg-gray-700" />
           <div className="mb-2.5 h-2 rounded-full bg-gray-200 dark:bg-gray-700" />
         </div>
         <span className="sr-only">Loading...</span>
       </div>
       <div
-        className="flex max-w-lg animate-pulse flex-col items-center gap-6 border p-4 dark:border-gray-700"
+        className="flex max-w-2xl animate-pulse flex-col items-center gap-6 rounded-lg border p-4 dark:border-gray-700"
         role="status"
       >
-        <div className="flex h-48 w-full items-center justify-center rounded bg-gray-300 dark:bg-gray-700">
+        <div className="flex h-56 w-full items-center justify-center rounded bg-gray-300 dark:bg-gray-700">
           <svg
             aria-hidden="true"
             className="h-10 w-10 text-gray-200 dark:text-gray-600"
@@ -105,17 +97,15 @@ export function ListItemSkeletonHome() {
           </svg>
         </div>
         <div className="w-full">
-          <div className="mb-2.5 h-2 max-w-[480px] rounded-full bg-gray-200 dark:bg-gray-700" />
-          <div className="mb-2.5 h-2 rounded-full bg-gray-200 dark:bg-gray-700" />
           <div className="mb-2.5 h-2 rounded-full bg-gray-200 dark:bg-gray-700" />
         </div>
         <span className="sr-only">Loading...</span>
       </div>
       <div
-        className="flex max-w-lg animate-pulse flex-col items-center gap-6 border p-4 dark:border-gray-700"
+        className="flex max-w-2xl animate-pulse flex-col items-center gap-6 rounded-lg border p-4 dark:border-gray-700"
         role="status"
       >
-        <div className="flex h-48 w-full items-center justify-center rounded bg-gray-300 dark:bg-gray-700">
+        <div className="flex h-56 w-full items-center justify-center rounded bg-gray-300 dark:bg-gray-700">
           <svg
             aria-hidden="true"
             className="h-10 w-10 text-gray-200 dark:text-gray-600"
@@ -127,8 +117,6 @@ export function ListItemSkeletonHome() {
           </svg>
         </div>
         <div className="w-full">
-          <div className="mb-2.5 h-2 max-w-[480px] rounded-full bg-gray-200 dark:bg-gray-700" />
-          <div className="mb-2.5 h-2 rounded-full bg-gray-200 dark:bg-gray-700" />
           <div className="mb-2.5 h-2 rounded-full bg-gray-200 dark:bg-gray-700" />
         </div>
         <span className="sr-only">Loading...</span>
@@ -140,7 +128,7 @@ export function ListItemSkeletonHome() {
 export function ListItemSkeleton() {
   return (
     <div
-      className="m-auto grid max-w-6xl animate-pulse gap-12 rounded border border-gray-200 px-8 py-6 shadow dark:border-gray-700"
+      className="grid animate-pulse gap-12 rounded border border-gray-200 px-8 py-6 shadow dark:border-gray-700"
       role="status"
     >
       <div>
