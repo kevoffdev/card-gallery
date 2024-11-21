@@ -11,23 +11,23 @@ export default async function ListItem({id}: {id: string}) {
   if (!element) return notFound();
 
   return (
-    <article className="m-auto grid max-w-6xl gap-12">
+    <article className="grid gap-12">
       {element.sections.map((item, index) => (
         <div
-          key={element.id}
-          className={`mb-20 rounded-md ${index % 2 === 0 ? "bg-slate-800" : "bg-slate-500"} p-10`}
+          key={item.title}
+          className={`mb-20 rounded-md ${index % 2 === 0 ? "bg-slate-800" : "bg-slate-600"} p-10`}
         >
-          <p
-            className={`text-center text-xl font-bold ${index % 2 === 0 ? "text-slate-500" : "text-slate-800"}`}
+          <h2
+            className={`text-center text-xl font-bold ${index % 2 === 0 ? "text-white" : "text-white"}`}
           >
             {item.title}
-          </p>
+          </h2>
           {item.body_elements.map((elementBody) => (
             <div key={crypto.randomUUID()} className="mt-5">
               {typeof elementBody === "object" ? (
                 <img alt="" className="" src={elementBody.image_url} />
               ) : (
-                <p className="font-medium">{elementBody}</p>
+                <p className="font-medium text-gray-300">{elementBody}</p>
               )}
             </div>
           ))}
